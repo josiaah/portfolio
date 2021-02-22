@@ -15,17 +15,17 @@ export default function Home() {
           <h1 className="text-5xl text-white hover:text-gray-300 mb-1 font-bold">Josiah Rose</h1>
           <p className="text-gray-200 tracking-tight leading-tight">A full-stack developer based in Canada. Currently studying technologies!</p>
           <br />
-          <a className="bg-gray-600 px-2 py-2 rounded-md text-white mr-2">
+          <a href="https://github.com/josiaah" className="bg-gray-600 px-2 py-2 rounded-md text-white mr-2">
           <i className="fab fa-github mr-1" aria-hidden="true"/>
             Github
             </a>
-          <a className="bg-indigo-400 px-2 py-2 rounded-md text-white">
-          <i className="fab fa-linkedin mr-1" aria-hidden="true"/>
-          Linkedin
+          <a href="https://twitter.com/tweetjosi" className="bg-indigo-400 px-2 py-2 rounded-md text-white">
+          <i className="fab fa-twitter mr-1" aria-hidden="true"/>
+          Twitter
           </a>
         </div>
         <div className="container mx-auto flex flex-col items-center">
-          <img src="https://cdn.discordapp.com/avatars/272797713483956236/be783d733b0e44dbe1bd4ab576105142.png?size=1024" className="w-64 border border-gray-900 h-64 rounded-lg" />
+          <img src="/profile.png" className="w-64 border border-gray-900 h-64 rounded-lg" />
         </div>
       </div>
     </Fragment>
