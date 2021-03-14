@@ -41,7 +41,7 @@ function Project({ heading, content, image }) {
                         alt="Past work"
                         shadow="dark-lg"
                         w="auto"
-                        h="xl"
+                        h="auto"
                     />
                 </Stack>
             </Flex>

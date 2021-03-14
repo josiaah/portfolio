@@ -32,14 +32,13 @@ export default function Projects() {
                         <Grid gap={6} templateRows="repeat(2, 1fr)">
                             <Project
                                 content="I completely remade the site using nextjs and tailwind."
-                                heading="PremiumSetups"
+                                heading="PremiumSetups.com"
                                 image="/ps.png" />
 
                             <Project
-                                content="My own bot-list, I helped with it. My friend maintains it and updates it."
-                                heading="Listcord"
+                                content="My own bot-list, I created it with a friend."
+                                heading="Listcord.xyz"
                                 image="/ld.png" />
-
                             <Project
                                 content="I made this site for a craftingstore theme."
                                 heading="Topstrix"
