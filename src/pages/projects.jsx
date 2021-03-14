@@ -9,9 +9,7 @@ import { Flex, Grid, Stack, Box, Heading, Link } from "@chakra-ui/react";
 export default function Projects() {
     return (
         <>
-            <Head>
-                <title>Josiah Rose - Projects</title>
-            </Head>
+            <NextSeo title="Projects" />
 
             <DarkModeSwitch />
 
