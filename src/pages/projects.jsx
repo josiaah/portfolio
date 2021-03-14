@@ -3,8 +3,11 @@ import Image from "next/image";
 
 import { Container } from "../components/Container";
 import { DarkModeSwitch } from "../components/DarkModeSwitch";
+
 import Project from "../components/Card/Project";
 import { Flex, Grid, Stack, Box, Heading, Link } from "@chakra-ui/react";
+
+import { NextSeo } from "next-seo";
 
 export default function Projects() {
     return (
