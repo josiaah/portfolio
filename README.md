@@ -1,14 +1,23 @@
-![](https://i.ibb.co/CWz8V0p/README.png)
-# haven-frontend
-![](https://api.ghprofile.me/view?username=teamcodebyte.haven-frontend)
-[![](https://img.shields.io/badge/License-CC%20BY--NC--ND%204.0-lightgrey.svg?color=007ec6&style=for-the-badge)](https://creativecommons.org/licenses/by-nc-nd/4.0/)
-![](https://img.shields.io/tokei/lines/github.com/teamcodebyte/haven-frontend?color=007ec6&style=for-the-badge)
-![](https://img.shields.io/github/contributors/teamcodebyte/haven-frontend?color=007ec6&style=for-the-badge)
-![](https://img.shields.io/website?down_color=969696&down_message=offline&style=for-the-badge&up_color=blue&up_message=online&url=https%3A%2F%2Fhaven.bio)
+# Example app with [chakra-ui](https://github.com/chakra-ui/chakra-ui)
 
-Haven is an opensource website (haven.bio) that provides various features that allow users to connect all their social media accounts in one place, generate short vanity links for their profile and post descriptions and most importantly, quickly describe themselves with a portfolio-like profile! Haven's backend is going to be built with NodeJS + Fastify and PostgreSQL, and the frontend is going to be built with NextJS and TailwindCSS. Currently, our main aim is to roll out an MVP and open up the project to outside contributions, then we're going to work on the fine parts and make the website as customizable as possible so people can show themselves the way they want to. 
+This example features how to use [chakra-ui](https://github.com/chakra-ui/chakra-ui) as the component library within a Next.js app.
 
-## Contributing
-Thanks for your interest in contributing! 🎉 You can contribute by reporting bugs, suggesting features and by developing and resolving existing issues! If you're looking to contribute, read our [contributing guidelines](https://github.com/teamcodebyte/haven-frontend/blob/main/CONTRIBUTING.md) and you should know what to do! Contact us in our [support discord server](https://discord.haven.bio) if you have anymore questions!
+We are connecting the Next.js `_app.js` with `chakra-ui`'s Theme and ColorMode containers so the pages can have app-wide dark/light mode. We are also creating some components which shows the usage of `chakra-ui`'s style props.
 
-## Contributors
+## Deploy your own
+
+Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example):
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/vercel/next.js/tree/canary/examples/with-chakra-ui&project-name=with-chakra-ui&repository-name=with-chakra-ui)
+
+## How to use
+
+Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init) or [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/) to bootstrap the example:
+
+```bash
+npx create-next-app --example with-chakra-ui with-chakra-ui-app
+# or
+yarn create next-app --example with-chakra-ui with-chakra-ui-app
+```
+
+Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
